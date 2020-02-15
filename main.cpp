@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
 	std::size_t found = data.find(".");
 	if (found != std::string::npos)
 	{
-		//找到"."字符，说明输入的是个double类型
+		//鎵惧埌"."瀛楃锛岃鏄庤緭鍏ョ殑鏄釜double绫诲瀷
 		auto data_d = stod(data);
 		HEXF hexf;
 		hexf.dobNum = data_d;
